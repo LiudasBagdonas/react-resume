@@ -1,0 +1,31 @@
+.media-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.media-text:hover, 
+.media-text:focus {
+    color: #C4C4C4;
+}
+.media-text:active {
+    color:  #C29486;
+}
+
+.social-link, 
+.contact-email,
+.contact-phone {
+    text-decoration: none;
+    color: black;
+}
+.contact-email:hover,
+.contact-email:focus,
+.contact-email:active,
+.contact-phone:hover,
+.contact-phone:focus,
+.contact-phone:active,
+.social-link:hover,
+.social-link:focus,
+.social-link:active {
+    color:  #7ABCAC;
+}

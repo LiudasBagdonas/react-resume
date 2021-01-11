@@ -1,0 +1,23 @@
+.skill-description-box {
+    border-radius: 10px;
+    padding: 2px 4px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: min-content;
+}
+
+.bg-green {
+    background-color: #7ABCAC;
+}
+
+.bg-yellow {
+    background-color: #D8DA79;;
+}
+
+.bg-red {
+    background-color: #C29486;;
+}
+
+.bg-grey {
+    background-color: #C4C4C4;;
+}

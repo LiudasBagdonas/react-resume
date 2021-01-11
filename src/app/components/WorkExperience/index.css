@@ -1,0 +1,21 @@
+.possition-box {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+    border-right: 3px solid #DCDCDC;
+}
+.possition-box:first-child {
+    margin-left: 0;
+}
+.possition-box:last-child {
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+}
+.position-text-box {
+    margin: 10px 0;
+    text-align: left;
+}
+.position-text-description-box {
+    margin-bottom: 20px;
+}

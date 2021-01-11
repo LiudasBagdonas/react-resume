@@ -1,0 +1,16 @@
+.profession-box, .contacts-title {
+    width: 60%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.profession-box p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.contacts-title {
+    width: 80%;
+    margin-bottom: 10px;
+}

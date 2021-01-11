@@ -1,0 +1,27 @@
+.h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.underline-box-1 {
+    height: 10px;
+    width: 60px;
+    background-color: #7ABCAC;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    margin-bottom: 10px;
+}
+.underline-box-2 {
+    position: relative;
+    height: 4px;
+    margin: 20px 0;
+    max-width: 100%;
+    background-color: #DCDCDC;
+    /* z-index: -1; */
+}
+.w-50 {
+    width: 50%;
+}
+.underline-none {
+    display: none;
+}
