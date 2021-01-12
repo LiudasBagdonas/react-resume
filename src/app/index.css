@@ -91,9 +91,7 @@ body  {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.w-100 {
-    width: 100%;
-}
+
 /* POSITIONS SECTION */
 
 .experience-positions-box {

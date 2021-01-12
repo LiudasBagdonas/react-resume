@@ -17,9 +17,9 @@ function WorkExperience({ jobPosition, jobInfo, children, list=''}) {
                     </p>
                 </div>
                {list.map((listItem, index) => (
-                   <div key={index}>
-                       <p {...listItem}></p>
-                   </div>
+                   <ul key={index}>
+                       <li {...listItem}></li>
+                   </ul>
                ))}
             </div>
         </div>

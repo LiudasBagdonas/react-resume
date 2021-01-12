@@ -111,7 +111,7 @@ function App() {
                             <WorkExperience
                                 jobPosition="JOB POSITION"
                                 jobInfo={[{ children: 'Company' }, { children: '2018 - present' }]}
-                                list={[{ children: '• Lorem ipsum dolor' }, { children: '• Consectetur adipiscing elit' }]}
+                                list={[{ children: 'Lorem ipsum dolor' }, { children: 'Consectetur adipiscing elit' }]}
                             >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo
                                 libero.
@@ -122,7 +122,7 @@ function App() {
                             <WorkExperience
                                 jobPosition="JOB POSITION"
                                 jobInfo={[{ children: 'Company' }, { children: '2016 - 2018' }]}
-                                list={[{ children: '• Lorem ipsum dolor' }, { children: '• Consectetur adipiscing elit' }]}
+                                list={[{ children: 'Lorem ipsum dolor' }, { children: 'Consectetur adipiscing elit' }]}
                             >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo
                                 libero.
@@ -133,7 +133,7 @@ function App() {
                             <WorkExperience
                                 jobPosition="JOB POSITION"
                                 jobInfo={[{ children: 'Company' }, { children: '2014 - 2016' }]}
-                                list={[{ children: '• Lorem ipsum dolor' }, { children: '• Consectetur adipiscing elit' }]}
+                                list={[{ children: 'Lorem ipsum dolor' }, { children: 'Consectetur adipiscing elit' }]}
                             >
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo
                                 libero.
