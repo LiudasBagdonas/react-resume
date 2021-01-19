@@ -7,7 +7,7 @@ function WorkExperience({ jobPosition, jobInfo, children, list=''}) {
             <h3>{jobPosition}</h3>
             {jobInfo.map((info, index) => (
                 <div key={index}>
-                    <p {...info}></p>
+                    <p>{info}</p>
                 </div>
             ))}
             <div className="position-text-box">
@@ -18,7 +18,7 @@ function WorkExperience({ jobPosition, jobInfo, children, list=''}) {
                 </div>
                {list.map((listItem, index) => (
                    <ul key={index}>
-                       <li {...listItem}></li>
+                       <li key={index}>{listItem}</li>
                    </ul>
                ))}
             </div>

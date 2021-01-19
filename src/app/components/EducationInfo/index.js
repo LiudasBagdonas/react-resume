@@ -1,7 +1,6 @@
 import './index.css';
 
-function EducationInfo({school, year, degree }) {
-
+function EducationInfo({school, year, degree}) {
     return (
         <div className="education-info-box">
             <span className="education-text">{school}</span>

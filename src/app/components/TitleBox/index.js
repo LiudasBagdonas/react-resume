@@ -1,9 +1,9 @@
 import './index.css';
 
-function TitleBox({className, title}) {
+function TitleBox({className, title, index}) {
 
     return (
-        <div className={className}>
+        <div key={index} className={className} >
             <p>{title}</p>
         </div>
     );
