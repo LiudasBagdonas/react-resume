@@ -50,14 +50,14 @@ function App() {
                                     className="media-text"
                                     children="LINKEDIN/Liudas"></Link>
                             </LinkBox>
-                            <LinkBox className="media-link-box">
+                            {/* <LinkBox className="media-link-box">
                                 <FontIcon className="fa fa-twitter-square link-icon"></FontIcon>
                                 <Link
                                     href=""
                                     target="_blank"
                                     className="media-text"
                                     children="TWITTER/@user-handle"></Link>
-                            </LinkBox>
+                            </LinkBox> */}
                             <LinkBox className="media-link-box">
                                 <FontIcon className="fa fa-github link-icon"></FontIcon>
                                 <Link
@@ -66,70 +66,87 @@ function App() {
                                     className="media-text"
                                     children="GITHUB/Username"></Link>
                             </LinkBox>
-                            <LinkBox className="media-link-box">
+                            {/* <LinkBox className="media-link-box">
                                 <FontIcon className="fab fa-dev link-icon"></FontIcon>
                                 <Link
                                     href=""
                                     target="_blank"
                                     className="media-text"
                                     children="BLOG/blog-name"></Link>
-                            </LinkBox>
+                            </LinkBox> */}
                         </ContentBox>
                         <ContentBox className="aboutme-box" title={translations[lang].main.about.title}>
                             <p>{translations[lang].main.about.text}</p>
                         </ContentBox>
                     </section>
-                    <section className="education-skills-box">
-                        <ContentBox className="education-box" title={translations[lang].main.education.title}>
+                    <section className="content-box">
+                        <section className="education-skills-box">
+                            <ContentBox className="education-box" title={translations[lang].main.education.title}>
 
-                            {translations[lang].main.education.schools.map((school, index) => (
+                                {translations[lang].main.education.schools.map((school, index) => (
 
-                                index !== translations[lang].main.education.schools.length - 1 ?
-                                    <Fragment key={index}>
-                                        <EducationInfo key={index} school={school.school} year={school.year} degree={school.degree} />
-                                        <Divider half />
-                                    </Fragment>
-                                    :
-                                    <Fragment key={index}>
-                                        <EducationInfo key={index} school={school.school} year={school.year} degree={school.degree} />
+                                    index !== translations[lang].main.education.schools.length - 1 ?
+                                        <Fragment key={index}>
+                                            <EducationInfo key={index} school={school.school} year={school.year} degree={school.degree} />
+                                            <Divider half />
+                                        </Fragment>
+                                        :
+                                        <Fragment key={index}>
+                                            <EducationInfo key={index} school={school.school} year={school.year} degree={school.degree} />
 
-                                    </Fragment>
-                            ))}
-                        </ContentBox>
-                        <ContentBox className="skills-box" title={translations[lang].main.personalSkills.title}>
-                            {translations[lang].main.personalSkills.pills.map((pill, index) => (
-                                <Pill key={index} color={pill.color}>{pill.title}</Pill>
-                            ))}
-                        </ContentBox>
-                        <ContentBox className="skills-box" title={translations[lang].main.technicalSkills.title}>
-                            {translations[lang].main.personalSkills.pills.map((pill, index) => (
-                                <Pill key={index} color={pill.color}>{pill.title}</Pill>
-                            ))}
-                        </ContentBox>
-                    </section>
-                    <ContentBox className="experience-box" title={translations[lang].main.workExperience.title}>
-                        <section className="experience-positions-box">
-                            {translations[lang].main.workExperience.positions.map(( item, index ) => (
-                                <WorkExperience
-                                    jobPosition={item.title}
-                                    jobInfo={[item.company, item.year]}
-                                    children={item.text}
-                                    list={item.list}
-                                    key={index}>
-                                    {item.text}
-                                </WorkExperience>
-                            ))}
+                                        </Fragment>
+                                ))}
+                            </ContentBox>
+                            {/* <ContentBox className="skills-box" title={translations[lang].main.personalSkills.title}>
+                                {translations[lang].main.personalSkills.pills.map((pill, index) => (
+                                    <Pill key={index} color={pill.color}>{pill.title}</Pill>
+                                ))}
+                            </ContentBox>
+                            <ContentBox className="skills-box" title={translations[lang].main.technicalSkills.title}>
+                                {translations[lang].main.technicalSkills.pills.map((pill, index) => (
+                                    <Pill key={index} color={pill.color}>{pill.title}</Pill>
+                                ))}
+                            </ContentBox> */}
                         </section>
-                    </ContentBox>
+                        <section className="skills-experience-box">
+                           <section className="pills-box">
+                           <ContentBox className="skills-box" title={translations[lang].main.personalSkills.title}>
+                                {translations[lang].main.personalSkills.pills.map((pill, index) => (
+                                    <Pill key={index} color={pill.color}>{pill.title}</Pill>
+                                ))}
+                            </ContentBox>
+                            <ContentBox className="skills-box" title={translations[lang].main.technicalSkills.title}>
+                                {translations[lang].main.technicalSkills.pills.map((pill, index) => (
+                                    <Pill key={index} color={pill.color}>{pill.title}</Pill>
+                                ))}
+                            </ContentBox>
+                           </section>
+
+                            <ContentBox className="experience-box" title={translations[lang].main.workExperience.title}>
+                                <section className="experience-positions-box">
+                                    {translations[lang].main.workExperience.positions.map((item, index) => (
+                                        <WorkExperience
+                                            jobPosition={item.title}
+                                            jobInfo={[item.company, item.year]}
+                                            children={item.text}
+                                            list={item.list}
+                                            key={index}>
+                                            {item.text}
+                                        </WorkExperience>
+                                    ))}
+                                </section>
+                            </ContentBox>
+                        </section>
+                    </section>
                     <section className="contacts-box">
                         <Divider />
                         <div className="contacts-content-box">
-                            {translations[lang].footer.map(( item, index ) => (
+                            {translations[lang].footer.map((item, index) => (
                                 <ContactsInfoBox
                                     className="contact-box"
                                     key={index}
                                     text={item.values.map((value) => (
-                                         value.text
+                                        value.text
                                     ))}
                                     link={item.values.map((value) => (
                                         value.link

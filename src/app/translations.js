@@ -1,4 +1,4 @@
-export default {
+const translations = {
     en: {
         header: {
             profession: { title: 'PROGRAMMER' }
@@ -10,65 +10,54 @@ export default {
             },
             about: {
                 title: 'ABOUT ME',
-                text: 'EN Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue egestas, dapibus justo et, lobortis ex. Nullam tortor diam, venenatis at enim a, lacinia porttitor erat. Vivamus tempor dictum leo id aliquam. Praesent elit lacus, tempus ac vehicula in, imperdiet dapibus elit. Nullam scelerisque euismod leo id vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam.'
+                text: "After graduating university in 2013 I started working as a barmen. Few years ago I got interested in web developement and decided to change my qualification. After two years of self teaching I signed in and started an intensive Full-Stack studies at CodeAcademy. Now, six months later I'm looking for my first programmer job and an oportunity take root in IT industry."
 
             },
             education: {
                 title: 'EDUCATION',
                 schools: [
-                    { school: 'SCHOOL NAME', year: '2009-2013', degree: 'Bachelors' },
-                    { school: 'SCHOOL NAME', year: '2015-2017', degree: 'Masters' }
+                    { school: 'CodeAcademy', year: '2021-present', degree: 'React.js' },
+                    { school: 'CodeAcademy', year: '2020-2020', degree: 'Full-Stack(PHP & JavaScript)' },
+                    { school: 'Lithuanian University of Educological Science', year: '2015-2017', degree: 'Master of Philosophy' },
+                    { school: 'Lithuanian University of Educological Science', year: '2009-2013', degree: 'Bachelor of Philosophy' },
                 ]
             },
             personalSkills: {
                 title: 'PERSONAL SKILLS',
                 pills: [
                     { title: 'TEAMWORK', color: 'green' },
+                    { title: 'ORGANIZATION', color: 'green' },
+                    { title: 'RESPONSIBILITY', color: 'green' },
                     { title: 'COMMUNICATION', color: 'yellow' },
-                    { title: 'ORGANIZATION', color: 'red' }
                 ]
             },
             technicalSkills: {
                 title: 'TECHNICAL SKILLS',
                 pills: [
                     { title: 'HTML', color: 'green' },
-                    { title: 'CSS/SCSS', color: 'green' },
+                    { title: 'CSS', color: 'green' },
                     { title: 'JAVASCRIPT', color: 'yellow' },
-                    { title: 'REACT.JS', color: 'yellow' }
+                    { title: 'PHP', color: 'yellow' },
+                    { title: 'MySQL', color: 'red' },
+                    { title: 'REACT.JS', color: 'red' }
                 ]
             },
             workExperience: {
                 title: 'WORK EXPERIENCE',
                 positions: [
                     {
-                        title: 'JOB POSITION',
-                        company: 'Company',
-                        year: '2018-present',
-                        text: 'ENLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.',
-                        list: [
-                            'ENLorem ipsum dolor',
-                            'ENConsectetur adipiscing elit'
-                        ]
+                        title: 'BARMAN/ADMINISTRATOR',
+                        company: 'Mr. Pub',
+                        year: '2014-2020',
+                        text: 'Muzikos Rūsys owners opened a new bar and I was asked to maintain it. I was responsible for ordering and receiving supplies, receiving registrations, solving technical problems, keeping bar clean, solving conflict situations, solving unexpected problems, instructing and training new employees, serving customers.',
+                        list: []
                     },
                     {
-                        title: 'JOB POSITION',
-                        company: 'Company',
-                        year: '2016-2018',
-                        text: 'ENLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.',
-                        list: [
-                            'ENLorem ipsum dolor',
-                            'ENConsectetur adipiscing elit'
-                        ]
-                    },
-                    {
-                        title: 'JOB POSITION',
-                        company: 'Company',
-                        year: '2016-2014',
-                        text: 'ENLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.',
-                        list: [
-                            'ENLorem ipsum dolor',
-                            'ENConsectetur adipiscing elit'
-                        ]
+                        title: 'BARMAN',
+                        company: 'Muzikos Rūsys/Variokas',
+                        year: '2013-2018',
+                        text: "First I was employed at Muzikos Rūsys, where I was responsible for keeping bar clean, solving conflict situations, solving unexpected problems, instructing and training new employees and, ofcourse, serving customers. Few years later, after a reconstruction, bar changed name to 'Variokas', where i continued working with same responsibilities.",
+                        list: []
                     }
                 ]
             }
@@ -78,7 +67,7 @@ export default {
                 title: 'ADDRESS',
                 values: [
                     {
-                        text: "Imaginary St.",
+                        text: "Didlaukio St.",
                         link: []
                     },
                     {
@@ -147,65 +136,54 @@ export default {
             },
             about: {
                 title: 'APIE MANE',
-                text: 'LT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue egestas, dapibus justo et, lobortis ex. Nullam tortor diam, venenatis at enim a, lacinia porttitor erat. Vivamus tempor dictum leo id aliquam. Praesent elit lacus, tempus ac vehicula in, imperdiet dapibus elit. Nullam scelerisque euismod leo id vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam.'
+                text: 'Baigus universitetą 2013 metais pradėjau dirbti barmenu. Prieš keletą metų susidomėjau internetinių puslapių kūrimu ir nuspręndžiau keisti profesiją. Po dvejų savarankiško mokymosi metų įstojau į CodeAcademį, kur baigiau Full-Stack kursus. Dabar, po šešių mėnesių intensyvių studijų, ieškau savo pirmojo programuotojo darbo ir galimybės įsitvirtinti IT srityje.'
 
             },
             education: {
                 title: 'IŠSILAVINIMAS',
                 schools: [
-                    { school: 'MOKYKLA', year: '2009-2013', degree: 'Bakalauras' },
-                    { school: 'MOKYKLA', year: '2015-2017', degree: 'Magistras' }
+                    { school: 'CodeAcademy', year: '2021-dabar', degree: 'React.js' },
+                    { school: 'CodeAcademy', year: '2020-2020', degree: 'Full-Stack(PHP & JavaScript)' },
+                    { school: 'Lietuvos Edukologijos Universitetas', year: '2015-2017', degree: 'Filosofijos bakalauras' },
+                    { school: 'Lietuvos Edukologijos Universitetas', year: '2009-2013', degree: 'Filosofijos bakalauras' },
                 ]
             },
             personalSkills: {
                 title: 'ASMENINIAI ĮGŪDŽIAI',
                 pills: [
                     { title: 'KOMANDIŠKUMAS', color: 'green' },
+                    { title: 'ORGANIZUOTUMAS', color: 'green' },
+                    {title: 'ATSAKINGUMAS', color: 'green'},
                     { title: 'BENDRAVIMAS', color: 'yellow' },
-                    { title: 'ORGANIZUOTUMAS', color: 'red' }
                 ]
             },
             technicalSkills: {
                 title: 'TECHNINIAI ĮGŪDŽIAI',
                 pills: [
                     { title: 'HTML', color: 'green' },
-                    { title: 'CSS/SCSS', color: 'green' },
+                    { title: 'CSS', color: 'green' },
                     { title: 'JAVASCRIPT', color: 'yellow' },
-                    { title: 'REACT.JS', color: 'yellow' }
+                    { title: 'PHP', color: 'yellow' },
+                    { title: 'MySQL', color: 'red' },
+                    { title: 'REACT.JS', color: 'red' }
                 ]
             },
             workExperience: {
                 title: 'PATIRTIS',
                 positions: [
                     {
-                        title: 'POZICIJA',
-                        company: 'Kompanija',
-                        year: '2018-DABAR',
-                        text: 'LTLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.',
-                        list: [
-                            'LTLorem ipsum dolor',
-                            'LTConsectetur adipiscing elit'
-                        ]
+                        title: 'BARMENAS/ADMINISTRATORIUS',
+                        company: 'Mr. Pub',
+                        year: '2014-2020',
+                        text: 'Muzikos Rūsio savininkai atidarė naują barą, kur man buvo pasiūlyta jį prižiūrėti. Buvau atsakingas už prekių užsakymą ir priėmimą, registracijų priemima, techninių problemų sprendimą, patalpų tvarkos priežiūrą, konfliktų sprendimą, nenumatytų problemu sprendimą, naujokų atranką ir apmokymą, klientų aptarnavimą.',
+                        list: []
                     },
                     {
-                        title: 'POZICIJA',
-                        company: 'Kompanija',
-                        year: '2016-2018',
-                        text: 'LTLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.',
-                        list: [
-                            'LTLorem ipsum dolor',
-                            'LTConsectetur adipiscing elit'
-                        ]
-                    },
-                    {
-                        title: 'POZICIJA',
-                        company: 'Kompanija',
-                        year: '2016-2014',
-                        text: 'LTLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut justo libero. Vestibulum vitae mattis diam. Vivamus eleifend diam vel tempor lacinia. Suspendisse non augue.',
-                        list: [
-                            'LTLorem ipsum dolor',
-                            'LTConsectetur adipiscing elit'
-                        ]
+                        title: 'BARMENAS',
+                        company: 'Muzikos Rūsys/Variokas',
+                        year: '2013-2018',
+                        text: "Pirma įsidarbinau Muzikos Rūsyje, kur buvau atsakingas už švarą ir tvarką baro patalpose, konfliktinių situacijų sprendimą, nenumatytų problemų sprendimą, naujokų apmokymą ir, žinoma, klientų aptarnavimą. Po keletos metų, po rekonstrukcijos, baras persivadino į 'Variokas', kur toliau dirbau ir buvau atsakingas už tuos pačius dalykus.",
+                        list: []
                     }
                 ]
             }
@@ -215,7 +193,7 @@ export default {
                 title: 'ADRESAS',
                 values: [
                     {
-                        text: 'Imaginary g.',
+                        text: 'Didlaukio g.',
                         link: []
                     },
                     {
@@ -274,3 +252,5 @@ export default {
         ]
     },
 }
+
+export default translations;

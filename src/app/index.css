@@ -78,13 +78,35 @@ body  {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+/*CONTENT BOX*/
+
+.content-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.pills-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+.education-skills-box {
+    grid-column: 1/2;
+}
+.skills-experience-box {
+    grid-column: 2/4;
+}
 /* LINKS AND ABOUT SECTION */
 
-.links-aboutme-box, .education-skills-box {
+.links-aboutme-box {
     width: 100%;
     padding: 10px 0;
     display: flex;
     margin: 20px 0;
+}
+.education-skills-box {
+    width: 100%;
+    display: flex;
 }
 .links-aboutme-box {
     display: grid;

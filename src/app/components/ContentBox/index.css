@@ -16,6 +16,9 @@ h2 {
 .skills-box {
     margin-left: 20px;
 }
+.skills-box:first-child {
+    margin-left: 0;
+}
 .aboutme-box {
     display: flex;
     flex-direction: column;
