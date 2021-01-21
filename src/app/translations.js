@@ -10,7 +10,7 @@ const translations = {
             },
             about: {
                 title: 'ABOUT ME',
-                text: "After graduating university in 2013 I started working as a barmen. Few years ago I got interested in web developement and decided to change my qualification. After two years of self teaching I signed in and started an intensive Full-Stack studies at CodeAcademy. Now, six months later I'm looking for my first programmer job and an oportunity take root in IT industry."
+                text: "After graduating university in 2013 I started working as a barmen. Few years ago I got interested in web developement and decided to change my qualification, so i started learning HTML/CSS languages, later JavaScript and Git version control system. After two years of self teaching I signed in and started an intensive Full-Stack studies at CodeAcademy. Now, six months later I'm looking for my first programmer job and an oportunity take root in IT industry. Also recently I started learning React.js framework and continue to self teach using popular programming tools and expand my current knowledge."
 
             },
             education: {
@@ -49,7 +49,7 @@ const translations = {
                         title: 'BARMAN/ADMINISTRATOR',
                         company: 'Mr. Pub',
                         year: '2014-2020',
-                        text: 'Muzikos Rūsys owners opened a new bar and I was asked to maintain it. I was responsible for ordering and receiving supplies, receiving registrations, solving technical problems, keeping bar clean, solving conflict situations, solving unexpected problems, instructing and training new employees, serving customers.',
+                        text: 'Muzikos Rūsys owners opened a new bar and I was asked to maintain it. New responsibilities for ordering and receiving supplies, receiving registrations, solving technical problems, new employees selection added to old ones.',
                         list: []
                     },
                     {
@@ -67,7 +67,7 @@ const translations = {
                 title: 'ADDRESS',
                 values: [
                     {
-                        text: "Didlaukio St.",
+                        text: "",
                         link: []
                     },
                     {
@@ -105,8 +105,8 @@ const translations = {
                     {
                         text: '',
                         link: [{
-                            text: 'LINKEDIN/Username',
-                            href: "http://linkedin.com/in/liudas-bagdonas-988b631b3",
+                            text: 'LINKEDIN/liudas-bagdonas',
+                            href: "http://linkedin.com/in/liudas-bagdonas",
                             target: "_blank",
                             className: "social-link"
                         }]
@@ -136,7 +136,7 @@ const translations = {
             },
             about: {
                 title: 'APIE MANE',
-                text: 'Baigus universitetą 2013 metais pradėjau dirbti barmenu. Prieš keletą metų susidomėjau internetinių puslapių kūrimu ir nuspręndžiau keisti profesiją. Po dvejų savarankiško mokymosi metų įstojau į CodeAcademį, kur baigiau Full-Stack kursus. Dabar, po šešių mėnesių intensyvių studijų, ieškau savo pirmojo programuotojo darbo ir galimybės įsitvirtinti IT srityje.'
+                text: 'Baigus universitetą 2013 metais pradėjau dirbti barmenu. Prieš keletą metų susidomėjau internetinių puslapių kūrimu ir nuspręndžiau keisti profesiją, taigi pradėjau mokintis HTML/CSS kalbų, vėliau ir JavaScript bei Git versijų kontrolės metodų. Po dvejų savarankiško mokymosi metų įstojau į CodeAcademį, kur baigiau Full-Stack kursus. Dabar, po šešių mėnesių intensyvių studijų, ieškau savo pirmojo programuotojo darbo ir galimybės įsitvirtinti IT srityje. Taip pat nesenai pradėjau mokintis React.js karkaso, toliau savarankiškai mokausi naudotis populiariais programavimo įrankiais, bei gilinu jau turimas žinias.'
 
             },
             education: {
@@ -144,7 +144,7 @@ const translations = {
                 schools: [
                     { school: 'CodeAcademy', year: '2021-dabar', degree: 'React.js' },
                     { school: 'CodeAcademy', year: '2020-2020', degree: 'Full-Stack(PHP & JavaScript)' },
-                    { school: 'Lietuvos Edukologijos Universitetas', year: '2015-2017', degree: 'Filosofijos bakalauras' },
+                    { school: 'Lietuvos Edukologijos Universitetas', year: '2015-2017', degree: 'Filosofijos magistras' },
                     { school: 'Lietuvos Edukologijos Universitetas', year: '2009-2013', degree: 'Filosofijos bakalauras' },
                 ]
             },
@@ -175,7 +175,7 @@ const translations = {
                         title: 'BARMENAS/ADMINISTRATORIUS',
                         company: 'Mr. Pub',
                         year: '2014-2020',
-                        text: 'Muzikos Rūsio savininkai atidarė naują barą, kur man buvo pasiūlyta jį prižiūrėti. Buvau atsakingas už prekių užsakymą ir priėmimą, registracijų priemima, techninių problemų sprendimą, patalpų tvarkos priežiūrą, konfliktų sprendimą, nenumatytų problemu sprendimą, naujokų atranką ir apmokymą, klientų aptarnavimą.',
+                        text: 'Muzikos Rūsio savininkai atidarė naują barą, kur man buvo pasiūlyta jį prižiūrėti. Prie senų atsakomybių prisidėjo atsakomybės už prekių užsakymą ir priėmimą, registracijų priemimą, techninių problemų sprendimą, naujokų atranką.',
                         list: []
                     },
                     {
@@ -193,7 +193,7 @@ const translations = {
                 title: 'ADRESAS',
                 values: [
                     {
-                        text: 'Didlaukio g.',
+                        text: '',
                         link: []
                     },
                     {
@@ -231,8 +231,8 @@ const translations = {
                     {
                         text: '',
                         link: [{
-                            text: 'LINKEDIN/Username',
-                            href: "http://linkedin.com/in/liudas-bagdonas-988b631b3",
+                            text: 'LINKEDIN/liudas-bagdonas',
+                            href: "http://linkedin.com/in/liudas-bagdonas",
                             target: "_blank",
                             className: "social-link"
                         }]

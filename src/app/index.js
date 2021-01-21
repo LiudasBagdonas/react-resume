@@ -45,35 +45,19 @@ function App() {
                             <LinkBox className="media-link-box">
                                 <FontIcon className="fa fa-linkedin link-icon"></FontIcon>
                                 <Link
-                                    href="http://linkedin.com/in/liudas-bagdonas-988b631b3"
+                                    href="http://linkedin.com/in/liudas-bagdonas"
                                     target="_blank"
                                     className="media-text"
-                                    children="LINKEDIN/Liudas"></Link>
+                                    children="LINKEDIN/liudas-bagdonas"></Link>
                             </LinkBox>
-                            {/* <LinkBox className="media-link-box">
-                                <FontIcon className="fa fa-twitter-square link-icon"></FontIcon>
-                                <Link
-                                    href=""
-                                    target="_blank"
-                                    className="media-text"
-                                    children="TWITTER/@user-handle"></Link>
-                            </LinkBox> */}
                             <LinkBox className="media-link-box">
                                 <FontIcon className="fa fa-github link-icon"></FontIcon>
                                 <Link
                                     href="https://github.com/LiudasBagdonas"
                                     target="_blank"
                                     className="media-text"
-                                    children="GITHUB/Username"></Link>
+                                    children="GITHUB/LiudasBagdonas"></Link>
                             </LinkBox>
-                            {/* <LinkBox className="media-link-box">
-                                <FontIcon className="fab fa-dev link-icon"></FontIcon>
-                                <Link
-                                    href=""
-                                    target="_blank"
-                                    className="media-text"
-                                    children="BLOG/blog-name"></Link>
-                            </LinkBox> */}
                         </ContentBox>
                         <ContentBox className="aboutme-box" title={translations[lang].main.about.title}>
                             <p>{translations[lang].main.about.text}</p>
