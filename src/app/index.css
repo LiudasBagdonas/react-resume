@@ -7,18 +7,134 @@
 body  {
     background-color: rgba(255, 255, 255, 0.75);
 }
-/* .bg-green {
-    background-color: #7ABCAC;
+
+@media only screen and (max-width: 568px) {
+    .App {
+        width: 100%;
+        height: auto;
+    }
+    
+    .wrapper {
+        /* width: 100%; */
+        margin: 0 auto;
+        height: 100%;
+    }
+    
+    /* HEADER */
+    
+    .header-box {
+        width: 100%;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-top-rectangle {
+        width: 100%;
+        height: 60px;
+        background-color: #7ABCAC;
+        position: relative;
+    }
+    
+    .header-bot-rectangle {
+        width: 250px;
+        height: 130px;
+        border: 5px solid black;
+        position: absolute;
+        bottom: 40px;
+        left: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .header-bot-rectangle h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .hero-select-language {
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        right: 20px;
+        outline: none;
+        background-color: #C4C4C4;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 3px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    /*CONTENT BOX*/
+    
+    .content-box {
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(3, 1fr);
+        gap: 20px; */
+        margin: 20px;
+    }
+    .pills-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .education-skills-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .skills-experience-box {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    /* LINKS AND ABOUT SECTION */
+    
+    .links-aboutme-box {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .education-skills-box {
+        width: 100%;
+        display: flex;
+    }
+    
+    /* POSITIONS SECTION */
+    .experience-box {
+        margin: 20px 0;
+    }
+
+    .experience-positions-box {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* CONTACTS SECTION */
+    
+    .contacts-box {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin: 20px;
+    }
+    .contacts-content-box {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.bg-yellow {
-    background-color: #D8DA79;;
-}
-
-.bg-red {
-    background-color: #C29486;;
-} */
-.App {
+@media only screen and (min-width: 569px) {
+    .App {
     width: 1400px;
     height: auto;
 }
@@ -68,15 +184,15 @@ body  {
     cursor: pointer;
     position: relative;
     top: 25%;
-    left: 90%;
+    left: 85%;
     outline: none;
     background-color: #C4C4C4;
     border: none;
     padding: 5px 15px;
     border-radius: 3px;
-    appearance: none;
+    /* appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
+    -moz-appearance: none; */
 }
 /*CONTENT BOX*/
 
@@ -132,3 +248,6 @@ body  {
     display: flex;
     flex-direction: row;
 }
+
+}
+

@@ -10,7 +10,7 @@ const translations = {
             },
             about: {
                 title: 'ABOUT ME',
-                text: "After graduating university in 2013 I started working as a barmen. Few years ago I got interested in web developement and decided to change my qualification, so i started learning HTML/CSS languages, later JavaScript and Git version control system. After two years of self teaching I signed in and started an intensive Full-Stack studies at CodeAcademy. Now, six months later I'm looking for my first programmer job and an oportunity take root in IT industry. Also recently I started learning React.js framework and continue to self teach using popular programming tools and expand my current knowledge."
+                text: "After graduating university in 2013 I started working as bartender and I did that till the beginning of last year. But few years ago I got interested in web development and decided to change my qualification. I started learning HTML/CSS languages, later JavaScript and Git version control system. After two years of self-teaching, I signed up for intensive Full-Stack studies at CodeAcademy. Now, six months later, I am looking for my first job as a programmer and opportunity to take roots in IT industry. Also this January I started React.js framework course and on parallel I haven't left behind self-teaching by using most popular programing tools."
 
             },
             education: {
@@ -49,14 +49,14 @@ const translations = {
                         title: 'BARMAN/ADMINISTRATOR',
                         company: 'Mr. Pub',
                         year: '2014-2020',
-                        text: 'Muzikos Rūsys owners opened a new bar and I was asked to maintain it. New responsibilities for ordering and receiving supplies, receiving registrations, solving technical problems, new employees selection added to old ones.',
+                        text: 'When Muzikos Rūsys owners opened new pub, I was asked to become its administrator. New responsibilities were added to existing ones, such as – ordering and receiving supplies, accepting registrations, solving technical problems, and selecting new employees.',
                         list: []
                     },
                     {
                         title: 'BARMAN',
                         company: 'Muzikos Rūsys/Variokas',
                         year: '2013-2018',
-                        text: "First I was employed at Muzikos Rūsys, where I was responsible for keeping bar clean, solving conflict situations, solving unexpected problems, instructing and training new employees and, ofcourse, serving customers. Few years later, after a reconstruction, bar changed name to 'Variokas', where i continued working with same responsibilities.",
+                        text: "In Muzikos Rūsys I was responsible for keeping bar clean, solving conflicts and unexpected problems, instructing, and training new employees and of course – serving customers. Few years later bar changed name to “Variokas“, where I continued to work with same responsibilities.",
                         list: []
                     }
                 ]
@@ -136,7 +136,7 @@ const translations = {
             },
             about: {
                 title: 'APIE MANE',
-                text: 'Baigus universitetą 2013 metais pradėjau dirbti barmenu. Prieš keletą metų susidomėjau internetinių puslapių kūrimu ir nuspręndžiau keisti profesiją, taigi pradėjau mokintis HTML/CSS kalbų, vėliau ir JavaScript bei Git versijų kontrolės metodų. Po dvejų savarankiško mokymosi metų įstojau į CodeAcademį, kur baigiau Full-Stack kursus. Dabar, po šešių mėnesių intensyvių studijų, ieškau savo pirmojo programuotojo darbo ir galimybės įsitvirtinti IT srityje. Taip pat nesenai pradėjau mokintis React.js karkaso, toliau savarankiškai mokausi naudotis populiariais programavimo įrankiais, bei gilinu jau turimas žinias.'
+                text: "Iš kart po bakalauro studijų baigimo 2013 metais pradėjau dirbti barmenu ir juo dirbau iki pernai metų pradžios. Tačiau prieš keletą metų susidomėjau internetinių puslapių kūrimu ir nusprendžiau keisti profesiją, taigi pradėjau mokintis HTML/CSS kalbų, vėliau ir JavaScript bei Git versijų kontrolės metodų. Po dvejų savarankiško mokymosi metų įstojau į CodeAcademį, kur baigiau Full-Stack kursus. Dabar, po šešių mėnesių intensyvių studijų, ieškau savo pirmojo programuotojo darbo ir galimybės įsitvirtinti IT srityje. Taip pat nesenai pradėjau mokintis React.js karkaso, toliau savarankiškai mokausi naudotis populiariais programavimo įrankiais, bei gilinu jau turimas žinias."
 
             },
             education: {
@@ -175,14 +175,14 @@ const translations = {
                         title: 'BARMENAS/ADMINISTRATORIUS',
                         company: 'Mr. Pub',
                         year: '2014-2020',
-                        text: 'Muzikos Rūsio savininkai atidarė naują barą, kur man buvo pasiūlyta jį prižiūrėti. Prie senų atsakomybių prisidėjo atsakomybės už prekių užsakymą ir priėmimą, registracijų priemimą, techninių problemų sprendimą, naujokų atranką.',
+                        text: 'Muzikos Rūsio savininkams atidarius naują barą man buvo pasiūlyta jį prižiūrėti. Prie buvusių atsakomybių prisidėjo prekių užsakymas ir priėmimas, registracijų priėmimas, techninių problemų sprendimas ir naujokų atranka.',
                         list: []
                     },
                     {
                         title: 'BARMENAS',
                         company: 'Muzikos Rūsys/Variokas',
                         year: '2013-2018',
-                        text: "Pirma įsidarbinau Muzikos Rūsyje, kur buvau atsakingas už švarą ir tvarką baro patalpose, konfliktinių situacijų sprendimą, nenumatytų problemų sprendimą, naujokų apmokymą ir, žinoma, klientų aptarnavimą. Po keletos metų, po rekonstrukcijos, baras persivadino į 'Variokas', kur toliau dirbau ir buvau atsakingas už tuos pačius dalykus.",
+                        text: "Muzikos Rūsyje buvau atsakingas už švarą ir tvarką baro patalpose, konfliktinių situacijų ir nenumatytų problemų sprendimą, naujokų apmokymą ir žinoma – klientų aptarnavimą. Po keleto metų, baras pakeitė koncepciją ir persivadino į „Variokas“, kuriame ir toliau buvau atsakingas už tuos pačius dalykus.",
                         list: []
                     }
                 ]

@@ -1,6 +1,18 @@
-.address-box, .social-box, .contact-box {
+@media only screen and (max-width: 568px) {
+    .address-box, .social-box, .contact-box {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 569px) {
+    .address-box, .social-box, .contact-box {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 }

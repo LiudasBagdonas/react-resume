@@ -1,16 +1,38 @@
-.profession-box, .contacts-title {
-    width: 60%;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    text-align: center;
+@media only screen and (max-width: 568px) {
+    .profession-box, .contacts-title {
+        width: 60%;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+    .profession-box p {
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0;
+    }
+    .contacts-title {
+        width: 80%;
+        margin-bottom: 10px;
+    }
 }
-.profession-box p {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0;
-}
-.contacts-title {
-    width: 80%;
-    margin-bottom: 10px;
+
+@media only screen and (min-width: 569px) {
+  
+    .profession-box, .contacts-title {
+        width: 60%;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+    .profession-box p {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0;
+    }
+    .contacts-title {
+        width: 80%;
+        margin-bottom: 10px;
+    }
 }
