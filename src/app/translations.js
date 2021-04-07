@@ -39,7 +39,7 @@ const translations = {
                     { title: 'JAVASCRIPT', color: 'yellow' },
                     { title: 'PHP', color: 'yellow' },
                     { title: 'MySQL', color: 'red' },
-                    { title: 'REACT.JS', color: 'red' }
+                    { title: 'REACT.JS', color: 'green' }
                 ]
             },
             workExperience: {
@@ -119,6 +119,15 @@ const translations = {
                             target: "_blank",
                             className: "social-link"
                         }]
+                    },
+                    {
+                        text: '',
+                        link: [{
+                                text: 'Portfolio',
+                            href: "https://liudas-bagdonas-portfolio.netlify.app/",
+                            target: "_blank",
+                            className: "social-link"
+                        }]
                     }
                 ]
             }
@@ -165,7 +174,7 @@ const translations = {
                     { title: 'JAVASCRIPT', color: 'yellow' },
                     { title: 'PHP', color: 'yellow' },
                     { title: 'MySQL', color: 'red' },
-                    { title: 'REACT.JS', color: 'red' }
+                    { title: 'REACT.JS', color: 'green' }
                 ]
             },
             workExperience: {
@@ -242,6 +251,15 @@ const translations = {
                         link: [{
                             text: 'GITHUB/LiudasBagdonas',
                             href: "https://github.com/LiudasBagdonas",
+                            target: "_blank",
+                            className: "social-link"
+                        }]
+                    },
+                    {
+                        text: '',
+                        link: [{
+                                text: 'Portfolio',
+                            href: "https://liudas-bagdonas-portfolio.netlify.app/",
                             target: "_blank",
                             className: "social-link"
                         }]

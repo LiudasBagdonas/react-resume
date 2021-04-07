@@ -58,6 +58,14 @@ function App() {
                                     className="media-text"
                                     children="GITHUB/LiudasBagdonas"></Link>
                             </LinkBox>
+                            <LinkBox className="media-link-box">
+                                <FontIcon className="fa fa-briefcase link-icon"></FontIcon>
+                                <Link
+                                    href="https://liudas-bagdonas-portfolio.netlify.app/"
+                                    target="_blank"
+                                    className="media-text"
+                                    children="Portfolio"></Link>
+                            </LinkBox>
                         </ContentBox>
                         <ContentBox className="aboutme-box" title={translations[lang].main.about.title}>
                             <p>{translations[lang].main.about.text}</p>
@@ -93,18 +101,18 @@ function App() {
                             </ContentBox> */}
                         </section>
                         <section className="skills-experience-box">
-                           <section className="pills-box">
-                           <ContentBox className="skills-box" title={translations[lang].main.personalSkills.title}>
-                                {translations[lang].main.personalSkills.pills.map((pill, index) => (
-                                    <Pill key={index} color={pill.color}>{pill.title}</Pill>
-                                ))}
-                            </ContentBox>
-                            <ContentBox className="skills-box" title={translations[lang].main.technicalSkills.title}>
-                                {translations[lang].main.technicalSkills.pills.map((pill, index) => (
-                                    <Pill key={index} color={pill.color}>{pill.title}</Pill>
-                                ))}
-                            </ContentBox>
-                           </section>
+                            <section className="pills-box">
+                                <ContentBox className="skills-box" title={translations[lang].main.personalSkills.title}>
+                                    {translations[lang].main.personalSkills.pills.map((pill, index) => (
+                                        <Pill key={index} color={pill.color}>{pill.title}</Pill>
+                                    ))}
+                                </ContentBox>
+                                <ContentBox className="skills-box" title={translations[lang].main.technicalSkills.title}>
+                                    {translations[lang].main.technicalSkills.pills.map((pill, index) => (
+                                        <Pill key={index} color={pill.color}>{pill.title}</Pill>
+                                    ))}
+                                </ContentBox>
+                            </section>
 
                             <ContentBox className="experience-box" title={translations[lang].main.workExperience.title}>
                                 <section className="experience-positions-box">
