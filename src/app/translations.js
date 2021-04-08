@@ -16,7 +16,7 @@ const translations = {
             education: {
                 title: 'EDUCATION',
                 schools: [
-                    { school: 'CodeAcademy', year: '2021-present', degree: 'React.js' },
+                    { school: 'CodeAcademy', year: '2021 01 - 2021 03', degree: 'React.js' },
                     { school: 'CodeAcademy', year: '2020-2020', degree: 'Full-Stack(PHP & JavaScript)' },
                     { school: 'Lithuanian University of Educological Science', year: '2015-2017', degree: 'Master of Philosophy' },
                     { school: 'Lithuanian University of Educological Science', year: '2009-2013', degree: 'Bachelor of Philosophy' },
@@ -38,7 +38,6 @@ const translations = {
                     { title: 'CSS', color: 'green' },
                     { title: 'JAVASCRIPT', color: 'yellow' },
                     { title: 'PHP', color: 'yellow' },
-                    { title: 'MySQL', color: 'red' },
                     { title: 'REACT.JS', color: 'green' }
                 ]
             },
@@ -151,7 +150,7 @@ const translations = {
             education: {
                 title: 'IŠSILAVINIMAS',
                 schools: [
-                    { school: 'CodeAcademy', year: '2021-dabar', degree: 'React.js' },
+                    { school: 'CodeAcademy', year: '2021 01 - 2021 03', degree: 'React.js' },
                     { school: 'CodeAcademy', year: '2020-2020', degree: 'Full-Stack(PHP & JavaScript)' },
                     { school: 'Lietuvos Edukologijos Universitetas', year: '2015-2017', degree: 'Filosofijos magistras' },
                     { school: 'Lietuvos Edukologijos Universitetas', year: '2009-2013', degree: 'Filosofijos bakalauras' },
@@ -173,7 +172,6 @@ const translations = {
                     { title: 'CSS', color: 'green' },
                     { title: 'JAVASCRIPT', color: 'yellow' },
                     { title: 'PHP', color: 'yellow' },
-                    { title: 'MySQL', color: 'red' },
                     { title: 'REACT.JS', color: 'green' }
                 ]
             },
